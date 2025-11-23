@@ -4,7 +4,7 @@ A superset of the US keyboard layout created for Portuguese speakers. Unlike alt
 ![Keyboard Layout](docs/layout.jpg)
 
 ## Why?
-I was fed up of unwieldy shortcuts caused by my use of the Portuguese keyboard layout in programs where shortcuts were designed with the US keyboard in mind (pretty much all of them). Alternatives like the international US layout also proved unsatisfactory. Rather than strictly expanding upon the default US layout, they replace existing keybindings. Save for the fact European keyboards are usually ISO (tall Enter, key between Left Shift and Z), a user of the default US keyboard layout would be able to use this custom layout without noticing any difference. This ensures 
+I was fed up of unwieldy shortcuts caused by my use of the Portuguese keyboard layout in programs where shortcuts were designed with the US keyboard in mind (pretty much all of them). Alternatives like the international US layout also proved unsatisfactory. Rather than strictly expanding upon the default US layout, they replace existing keybindings. Save for the fact European keyboards are usually ISO (tall Enter, key between Left Shift and Z), a user of the default US keyboard layout would be able to use this custom layout without noticing any difference.
 
 ## Choices
 | Symbol(s) | Location    | Reason                                                                         |
