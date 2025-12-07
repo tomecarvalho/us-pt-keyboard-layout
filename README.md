@@ -17,3 +17,16 @@ I was fed up of unwieldy shortcuts caused by my use of the Portuguese keyboard l
 | ^         | AltGr + '   | Tilde already took its PT position, shifted it to the left                     |
 | ¨         | AltGr + ;   | Unnecessary, just shoved it there because I wanted the ordinals to be together |
 |ª and º    | . and /     | Bottom-right of the keyboard, positioned next to each other                    |
+
+## Installation
+
+### Linux
+
+`sudo ./linux/install.sh` or read `./linux/INSTALL.md`.
+
+To restore the backed-up files:  
+`sudo ./linux/restore-backups.sh`
+
+### Windows
+
+Download the installer from the [GitHub releases](https://github.com/tomecarvalho/us-pt-keyboard-layout/releases). To build it yourself from the `klc` file, use [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=102134).

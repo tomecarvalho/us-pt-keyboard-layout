@@ -1,5 +1,10 @@
 # Manual Installation Guide for US-PT Keyboard Layout (Linux)
 
+## Note
+
+For automatic installation, use the `install.sh` script:  
+`sudo ./linux/install.sh`
+
 ## Prerequisites
 
 Before installing, **create backups**:
@@ -81,9 +86,13 @@ Log out and log back in.
 
 ### If Keyboard Layouts Break
 
-If your desktop environment's keyboard settings stop showing keyboard layouts or they appear corrupted:
+If your desktop environment's keyboard settings stop showing keyboard layouts or they appear corrupted, try the following:
 
-1. **Restore from backup:**
+1. **User the restore backups script**  
+`sudo ./linux/restore-backups.sh`
+
+1. **Restore from backup manually:**
+
 ```bash
 sudo cp /usr/share/X11/xkb/rules/evdev.xml.backup /usr/share/X11/xkb/rules/evdev.xml
 sudo cp /usr/share/X11/xkb/rules/evdev.lst.backup /usr/share/X11/xkb/rules/evdev.lst
