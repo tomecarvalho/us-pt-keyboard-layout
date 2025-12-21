@@ -37,7 +37,7 @@ fi
 
 print_info "Starting US-PT keyboard layout installation..."
 
-# Step 0: Create backups
+# Create backups
 print_info "Creating backups..."
 if [ ! -f /usr/share/X11/xkb/rules/evdev.xml.backup ]; then
   cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.backup
@@ -53,13 +53,13 @@ else
   print_warning "Backup already exists: evdev.lst.backup"
 fi
 
-# Step 1: Copy the layout file
+# Copy the layout file
 print_info "Copying layout file..."
 cp "$LAYOUT_FILE" /usr/share/X11/xkb/symbols/
 chmod 644 /usr/share/X11/xkb/symbols/us_pt
 print_info "Layout file copied to /usr/share/X11/xkb/symbols/us_pt"
 
-# Step 2: Register the layout in evdev.xml
+# Register the layout in evdev.xml
 print_info "Registering layout in evdev.xml..."
 XML_FILE="/usr/share/X11/xkb/rules/evdev.xml"
 
@@ -85,7 +85,7 @@ else
   print_info "Layout registered in evdev.xml"
 fi
 
-# Step 3: Register the layout in evdev.lst
+# Register the layout in evdev.lst
 print_info "Registering layout in evdev.lst..."
 LST_FILE="/usr/share/X11/xkb/rules/evdev.lst"
 
@@ -108,10 +108,7 @@ else
   print_info "Layout registered in evdev.lst"
 fi
 
-# Final message
 print_info "Installation completed successfully!"
-echo ""
-print_info "Please log out and log back in for changes to take effect."
 echo ""
 print_info "You can then select 'English (US, Portuguese-adapted superset)' from your keyboard layout settings."
 
