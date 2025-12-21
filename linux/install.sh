@@ -111,7 +111,5 @@ fi
 # Final message
 print_info "Installation completed successfully!"
 echo ""
-print_info "Please log out and log back in for changes to take effect."
-echo ""
 print_info "You can then select 'English (US, Portuguese-adapted superset)' from your keyboard layout settings."
 

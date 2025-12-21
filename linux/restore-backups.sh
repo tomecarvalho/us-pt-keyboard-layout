@@ -57,5 +57,3 @@ else
 fi
 
 print_info "Restoration completed!"
-echo ""
-print_info "Please log out and log back in for changes to take effect."
