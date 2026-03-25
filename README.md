@@ -1,12 +1,14 @@
 # US-PT Keyboard Layout
 
-A superset of the US keyboard layout created for Portuguese speakers. Unlike alternatives such as the international US layout, it retains all original keybindings of the US keyboard layout, expanding upon it exclusively through AltGr keybindings.
+A superset of the US keyboard layout created for Portuguese speakers. In contrast to alternatives like the international US layout, it retains all original keybindings of the US keyboard layout, expanding upon it exclusively through AltGr keybindings.
+
+Additional shortcuts to improve the usability of ~60% keyboards are also included.
 
 ![Keyboard Layout](docs/layout.jpg)
 
 ## Why?
 
-I was fed up of unwieldy shortcuts caused by my use of the Portuguese keyboard layout in programs where shortcuts were designed with the US keyboard in mind (pretty much all of them). Alternatives like the international US layout also proved unsatisfactory. Rather than strictly expanding upon the default US layout, they replace existing keybindings. Save for the fact European keyboards are usually ISO (tall Enter, key between Left Shift and Z), a user of the default US keyboard layout would be able to use this custom layout without noticing any difference.
+I was fed up of unwieldy shortcuts caused by my use of the Portuguese keyboard layout in programs where shortcuts were designed with the US keyboard in mind (pretty much all of them). Alternatives like the international US layout also proved unsatisfactory—rather than strictly expanding upon the default US layout, they replace existing keybindings. Save for the fact European keyboards are usually ISO (tall Enter, and the additional key between Left Shift and Z), a user of the default US keyboard layout would be able to use this custom layout without noticing any difference.
 
 ## Choices
 
@@ -24,6 +26,8 @@ I was fed up of unwieldy shortcuts caused by my use of the Portuguese keyboard l
 | `«` and `»`                 | `AltGr` + `9` and `0`       | Mirrored the same way as ( and ) on Shift+9 and 0                                                                                                                              |
 | `—`                         | `AltGr` + `-`               | Em dash on the same key as other dash characters (hyphen and underscore)                                                                                                       |
 | `–`                         | `AltGr` + `=`               | En dash to the right of em dash                                                                                                                                                |
+| `` ` ``                     | `AltGr` + `Q`               | Alternative to the inconvenient binding on some 60% keyboards : `Fn` + `Esc`                                                                                                   |
+| `~`                         | `AltGr` + `W`               | Alternative to the inconvenient binding on some 60% keyboards: `Fn` + `Shift` + `Esc`                                                                                          |
 | `É`                         | `AltGr` + `E`               | Acute accent shortcut for E                                                                                                                                                    |
 | `Ê`                         | `AltGr` + `R`               | Circumflex accent shortcut for E (right of acute)                                                                                                                              |
 | `Ú`                         | `AltGr` + `U`               | Acute accent shortcut for U                                                                                                                                                    |

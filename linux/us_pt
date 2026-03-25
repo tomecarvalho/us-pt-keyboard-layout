@@ -4,7 +4,7 @@
 // and dead keys for accented characters, accessible via AltGr (Right Alt).
 //
 // Author: tomecarvalho01@gmail.com
-// Version: 1.1
+// Version: 1.2
 // Copyright: 2025
 
 default partial alphanumeric_keys
@@ -28,8 +28,8 @@ xkb_symbols "basic" {
     key <AE11> { [ minus,            underscore,     U2014,              underscore      ] };
     key <AE12> { [ equal,            plus,           U2013,              plus            ] };
 
-    key <AD01> { [ q,                Q,              q,                  Q               ] };
-    key <AD02> { [ w,                W,              w,                  W               ] };
+    key <AD01> { [ q,                Q,              grave,              grave           ] };
+    key <AD02> { [ w,                W,              asciitilde,         asciitilde      ] };
     key <AD03> { [ e,                E,              eacute,             Eacute          ] };
     key <AD04> { [ r,                R,              ecircumflex,        Ecircumflex     ] };
     key <AD05> { [ t,                T,              t,                  T               ] };
